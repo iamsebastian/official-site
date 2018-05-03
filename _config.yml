@@ -1,0 +1,87 @@
+# SITE CONFIGURATION
+baseurl: ""
+url: "https://sebastian.science"
+
+# THEME-SPECIFIC CONFIGURATION
+theme_settings:
+  # Meta
+  title: Sebastian Blei — freiberuflicher Entwickler
+  avatar: assets/img/avatar.png
+  favicon: assets/favicon.ico
+  github_uid: 1620425
+  gravatar: # Email MD5 hash
+  description: "Sebastian Blei, Entwickler für Frontend, Backend und Datenbanken" # used by search engines
+
+  # Header and footer text
+  header_text: |
+    Entwicklung für Web, Desktop, Smartphone & Backend.
+  header_text_feature_image:
+  footer_text: |
+    Viele Grüße, Sebastian Blei
+
+  # Icons
+  rss: false
+  email_address: site@sebastian.science
+  behance:
+  bitbucket:
+  dribbble:
+  facebook:
+  flickr:
+  gitlab:
+  github: "iamsebastian"
+  google_plus:
+  instagram:
+  linkedin:  # Full URL
+  pinterest:
+  phone: "+4915223349872"
+  reddit:
+  soundcloud:
+  stack_exchange:  # Full URL
+  steam:
+  tumblr:
+  twitter:
+  wordpress:
+  xing: "Sebastian_Blei"
+  youtube:
+
+  # Scripts
+  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  disqus_shortname:
+  #katex: true # Enable if using math markup
+  search: false # Enable the search feature
+
+  # Localization strings
+  str_continue_reading: "Weiterlesen"
+  str_email: "Email"
+  str_follow_on: "Finden auf"
+  str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_next_page: "Nächster"
+  str_next_post: "Nächster Eintrag"
+  str_phone: "Telefon"
+  str_previous_page: "Vorheriger"
+  str_previous_post: "Vorheriger Eintragf"
+  str_rss_follow: "RSS Feed folgen"
+  str_search_no_results: "Keine Suchergebnisse."
+
+  # Colours, typography and padding
+  # Open the "_sass > base" folder, and open "_variables.scss"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
+
+  # Post navigation
+  post_navigation: false
+
+# PAGINATION
+paginate: 5
+paginate_path: "blog/page:num"
+
+# BUILD SETTINGS
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: :compressed
+#plugins: [jekyll-paginate]
+theme: jekyll-theme-type
+exclude:
+  - Gemfile
+  - Gemfile.lock
