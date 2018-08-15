@@ -6,7 +6,7 @@ hide: true
 ---
 
 Sebastian Blei  
-August-Bebel-Platz 1  
+Spiegelstraße 27  
 99734 Nordhausen
 
 Telefon: <a href="tel:+4915223349872">01522 33 4 987 2</a>  
