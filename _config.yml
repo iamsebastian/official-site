@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://sebastian.science"
+url: "http://sebastianblei.de"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
