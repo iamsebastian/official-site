@@ -14,14 +14,14 @@ theme_settings:
 
   # Header and footer text
   header_text: |
-    Entwicklung für Web, Desktop, Smartphone & Backend.
+    Entwicklung für Web, Desktop & Backend.
   header_text_feature_image:
   footer_text: |
     Viele Grüße, Sebastian Blei
 
   # Icons
   rss: false
-  email_address: site@sebastian.science
+  email_address: site@sebastianblei.de
   behance:
   bitbucket:
   dribbble:
@@ -80,8 +80,8 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-#plugins: [jekyll-paginate]
-theme: jekyll-theme-type
+#theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
+plugins:

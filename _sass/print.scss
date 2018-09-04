@@ -1,0 +1,17 @@
+// Print
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .site-header {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+}
+
+@media screen {
+  .just-print {
+    display: none !important;
+  }
+}
