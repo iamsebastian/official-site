@@ -21,6 +21,7 @@ Mein Profil <a href="javascript:window.print();">drucken</a> oder als PDF herunt
     <li>Continous Integration (<b>docker</b>, travis-ci, packet.net)</li>
   </ul>
   </dd>
+  <p>Umsetzung: Aufgebaut wurde eine REST-API mit postgreSQL, die das Segmentieren von Kundendaten verschiedener Finanzinstitute berechnete. Dafür wurden die Kundendaten der Finanzinformatik per SQL-Selects abgezogen und bei der API via CSV importiert. Die API beinhaltete Session- &amp; User-Management (jwt), sowie viel Businesslogik zur Segmentierung der Daten. Das Frontend wurde mit ember.js und Bootstrap umgesetzt und diente u.a. zur Administration der Segmentierungseinstellungen. Session-Management (jwt), Import-Schnittstellen der Daten, sowie grafische Visualisierung der Segmentierungsergebnisse (chart.js), waren ebenfalls wichtige Punkte im Frontend.</p>
 
   <dt>08/2014 — 10/2015</dt>
   <dd>CrowdArchitects GmbH, Erfurt
@@ -29,6 +30,7 @@ Mein Profil <a href="javascript:window.print();">drucken</a> oder als PDF herunt
     <li>Datenbank (<b>neo4j</b>)</li>
   </ul>
   </dd>
+  <p>Die CRUD-API, in node.js geschrieben, bot Schnittstellen zur Administration (Frontend in Angular.js) von Konfigurationseinstellungen, sowie Schnittstellen für mobile Apps (Android &amp; iPhone). Die mobilen Apps stellten individualisierte Whitelabel-Apps verschiedenster Radio-Sender dar. Wichtige Schnittstellen, waren u.a. die Ausgabe komplex-verknüpfter neo4j-Nodes an die mobilen Frontends, die sich teilweise über eine tiefe von einem Dutzend Relationen verband. Dafür wurde eine eigens-entwickelte ORM-Abstraktion eingesetzt. Die Kommunikation der Frontends mit der API erfolgte via CRUD &amp; Paging, um die benötigten Datenmengen der mobilen Frontends möglichst gering &amp; schnell zu halten.</p>
 
   <dt>08/2013 — 08/2014</dt>
   <dd>plazz AG, Erfurt:
@@ -36,6 +38,7 @@ Mein Profil <a href="javascript:window.print();">drucken</a> oder als PDF herunt
     <li>Frontend (<b>Angular.js</b>)</li>
   </ul>
   </dd>
+  <p>Das Frontend diente teilweise zur Konfiguration, hauptsächlich aber zur Visualisierung informativer Daten aus dem KFZ-Bereich. Die Kommunikation mit dem PHP-Backend erfolgte via REST &amp; Paging.</p>
 </dl>
 
 <hr>
